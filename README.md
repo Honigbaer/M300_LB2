@@ -34,26 +34,26 @@ Docker Registry: Image-Ablage und Verteilung, Standard Docker Hub
 **Befehle:**
 
 `docker run`<br>
-startet einen neuen Container, unterstützt zahlreiche Argumente
+startet einen neuen Container, unterstützt zahlreiche Argumente<br>
 `docker ps`<br>
-Übersicht über die aktuellen Container
+Übersicht über die aktuellen Container<br>
 `docker images`<br>
-Liste lokaler Images
+Liste lokaler Images<br>
 `docker rm`<br>
-entfernt einen oder mehrere Container
+entfernt einen oder mehrere Container<br>
 `docker rmi`<br>
-löscht die angegebenen Images
+löscht die angegebenen Images<br>
 `docker start`<br>
-startet gestoppte Container
+startet gestoppte Container<br>
 `docker stop`<br>
-stoppt Container
+stoppt Container<br>
 `docker kill`<br>
-stopp Container sofort (Signal an Hauptprozess)
+stopp Container sofort (Signal an Hauptprozess)<br>
 `docker logs`<br>
-Container Logs
+Container Logs<br>
 `docker inspect`<br>
-Informationen zu Containern
+Informationen zu Containern<br>
 `docker diff`<br>
-zeigt Änderungen am Dateisystem des Containers
+zeigt Änderungen am Dateisystem des Containers<br>
 `docker top`<br>
-Informationen zu laufendem Prozess im Container
+Informationen zu laufendem Prozess im Container<br>
