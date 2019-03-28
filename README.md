@@ -25,11 +25,11 @@ Honegger Fabrice
 ![](http://iotkit.mc-b.ch/tbz/M300V3/html/40-Container/images/DockerArchitektur.png  "Docker Architektur") 
 
 **Komponenten:** <br>
-Daemon: erstellen, ausführen und überwachen der Container
-Client: Bedienung mittels Kommandozeile CLI und Kommunikation per HTTP REST
-Images: gebuildete Container, nicht veränderbar, Name und Version
-Container: ausgeführte Images, Image kann beliebig oft ausgeführt werden
-Docker Registry: Image-Ablage und Verteilung, Standard Docker Hub
+Daemon: erstellen, ausführen und überwachen der Container<br>
+Client: Bedienung mittels Kommandozeile CLI und Kommunikation per HTTP REST<br>
+Images: gebuildete Container, nicht veränderbar, Name und Version<br>
+Container: ausgeführte Images, Image kann beliebig oft ausgeführt werden<br>
+Docker Registry: Image-Ablage und Verteilung, Standard Docker Hub<br>
 
 **Befehle:**
 
