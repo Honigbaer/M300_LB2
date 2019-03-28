@@ -1,25 +1,59 @@
 # M300_LB2
 M300 LB2
-# Tandem
+### Tandem
 Honegger Fabrice, Von Atzigen Gregor
-# Repository von
+### Repository von
 Honegger Fabrice
 
-# Thema Docker
-## 01 Container
+## Thema LB2 Docker
+### 01 Container
 **Merkmale von Container-Systemen:** <br>
  * teilen sich Ressourcen mit dem Host-Betriebssystem
-    * schnell einsatzbereit
-    * Anwendungen verursachen wenig bis keinen Overhead
-    * portierbar
-    * paralleler Betrieb mehrerer Container ohne Probleme möglich
-    * Cloud-ready
+ * schnell einsatzbereit
+ * Anwendungen verursachen wenig bis keinen Overhead
+ * portierbar
+ * paralleler Betrieb mehrerer Container ohne Probleme möglich
+ * Cloud-ready
 
-## 02 Docker
+### 02 Docker
 **Docker:** <br>
 * besteht aus zwei Komponenten: Docker Engine und Docker Hub
-    * verbesserte und erweiterte Version der Linux-Containertechnologie
-    * für 64-bit Linux-Umgebungen entwickelt
-    * mittels virtuellen Maschinen auch auf Windows und Mac nutzbar
+* verbesserte und erweiterte Version der Linux-Containertechnologie
+* für 64-bit Linux-Umgebungen entwickelt
+* mittels virtuellen Maschinen auch auf Windows und Mac nutzbar
 
 ![](http://iotkit.mc-b.ch/tbz/M300V3/html/40-Container/images/DockerArchitektur.png  "Docker Architektur") 
+
+**Komponenten:** <br>
+Daemon: erstellen, ausführen und überwachen der Container
+Client: Bedienung mittels Kommandozeile CLI und Kommunikation per HTTP REST
+Images: gebuildete Container, nicht veränderbar, Name und Version
+Container: ausgeführte Images, Image kann beliebig oft ausgeführt werden
+Docker Registry: Image-Ablage und Verteilung, Standard Docker Hub
+
+**Befehle:**
+
+`docker run`<br>
+startet einen neuen Container, unterstützt zahlreiche Argumente
+`docker ps`<br>
+Übersicht über die aktuellen Container
+`docker images`<br>
+Liste lokaler Images
+`docker rm`<br>
+entfernt einen oder mehrere Container
+`docker rmi`<br>
+löscht die angegebenen Images
+`docker start`<br>
+startet gestoppte Container
+`docker stop`<br>
+stoppt Container
+`docker kill`<br>
+stopp Container sofort (Signal an Hauptprozess)
+`docker logs`<br>
+Container Logs
+`docker inspect`<br>
+Informationen zu Containern
+`docker diff`<br>
+zeigt Änderungen am Dateisystem des Containers
+`docker top`<br>
+Informationen zu laufendem Prozess im Container
