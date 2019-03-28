@@ -7,7 +7,7 @@ Honegger Fabrice
 
 # Thema Docker
 ## 01 Container
-**Merkmale von Container-Systemen:**
+**Merkmale von Container-Systemen:** <br>
     * teilen sich Ressourcen mit dem Host-Betriebssystem
     * schnell einsatzbereit
     * Anwendungen verursachen wenig bis keinen Overhead
@@ -16,7 +16,7 @@ Honegger Fabrice
     * Cloud-ready
 
 ## 02 Docker
-**Docker:**
+**Docker:** <br>
     * besteht aus zwei Komponenten: Docker Engine und Docker Hub
     * verbesserte und erweiterte Version der Linux-Containertechnologie
     * für 64-bit Linux-Umgebungen entwickelt
