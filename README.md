@@ -57,3 +57,14 @@ Informationen zu Containern<br>
 zeigt Änderungen am Dateisystem des Containers<br>
 `docker top`<br>
 Informationen zu laufendem Prozess im Container<br>
+
+**Dockerfile:**
+Dockerfile ist eine Textdatei mit Anweisungen zur Erzeugung eines Docker-Image.
+`docker build -t mysql .`
+bildet das Image
+`docker run --rm -d --name mysql mysql`
+Start
+`docker exec -it mysql bash`
+Überprüfung der Funktionsfähigkeit
+`ps -ef` oder `netstat -tulpen`
+Überprüfung im Container
