@@ -58,13 +58,22 @@ zeigt Änderungen am Dateisystem des Containers<br>
 `docker top`<br>
 Informationen zu laufendem Prozess im Container<br>
 
-**Dockerfile:**
-Dockerfile ist eine Textdatei mit Anweisungen zur Erzeugung eines Docker-Image.
-`docker build -t mysql .`
-bildet das Image
-`docker run --rm -d --name mysql mysql`
-Start
-`docker exec -it mysql bash`
-Überprüfung der Funktionsfähigkeit
-`ps -ef` oder `netstat -tulpen`
-Überprüfung im Container
+**Dockerfile:**<br>
+Dockerfile ist eine Textdatei mit Anweisungen zur Erzeugung eines Docker-Image.<br>
+`docker build -t mysql .`<br>
+bildet das Image<br>
+`docker run --rm -d --name mysql mysql`<br>
+Start<br>
+`docker exec -it mysql bash`<br>
+Überprüfung der Funktionsfähigkeit<br>
+`ps -ef` oder `netstat -tulpen`<br>
+Überprüfung im Container<br>
+
+**Dockerprojekt**<br>
+Meine erste Idee war eine Bereitstellung eines Plex-Mediaserver mit Verlinkung auf Filmdatenbanken. Dies war jedoch unter Windows aufgrund diversen bekannten Problemen nicht umsetzbar.
+
+Nun habe ich ein kleineres Microservice-Projekt mit einem Node-Container und einem PostgreSQL-Container. 
+
+**Reflexion**<br>
+Docker war für mich genau wie Vagrant komplettes Neuland. Ich hatte mit Docker etwas mehr Mühe Verständnis für die einzelnen Vorgänge zu entwickeln. Ebenfalls hatte ich nicht auf Anhieb eine direkte Projektidee.<br>
+Wie bereits bei Vagrant, würde ich bei Docker eine Einführung und Demonstration mit Dockerfile und Docker-Compose.yaml File wünschen.
